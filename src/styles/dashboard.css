@@ -1,0 +1,37 @@
+.dashboard {
+  text-align: center;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.dashboard h1 {
+  margin-bottom: 10px;
+}
+
+.dashboard-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dashboard-button, .logout-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #dc3545;
+}
+
+.dashboard-button:hover,
+.logout-button:hover {
+  opacity: 0.9;
+}

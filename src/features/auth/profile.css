@@ -1,0 +1,43 @@
+.profile-setup-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.profile-setup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-setup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-setup-container label {
+  margin: 10px 0 5px;
+}
+
+.profile-setup-container input,
+.profile-setup-container select {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.profile-setup-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile-setup-container button:hover {
+  background-color: #0056b3;
+}
